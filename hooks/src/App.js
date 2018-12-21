@@ -8,7 +8,7 @@ const useStyles = makeStyles({
     width: 200,
     height: 50,
     color: 'black',
-    background: 'white'
+    background: 'aqua'
   },
   bean: {
     width: 100,
@@ -37,6 +37,7 @@ export const App = props => {
       <Button className={classes.button} onClick={() => setNumber(number + 1)}>
         Add A Bean
       </Button>
+      <br />
       <br />
       <Button className={classes.button} onClick={() => setNumber(number - 1)}>
         Take A Bean Away :(
